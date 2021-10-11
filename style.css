@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+   height: 10%vh;
+}
+.home-logo {
+    max-height: 60%;
+    max-width: 10%;
+}
+/* start main */
+.container {
+    min-height: 100vh;
+}
+
+.intro {
+    background-color: blue;
+   
+    
+
+    
+    
+}
+h1 {
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+.intro-background {
+    width: 100vw;
+    height: 70vh;
+    
+    
+
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+
+    place-items: center;
+}
+.intro-text {
+    color: white;   
+}
+.form-title {
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+}
+.form-title-2 {
+    color: blue;
+    text-align: center;
+}
+
+.sign-up-form {
+    
+    text-align: center;
+    margin: 2rem 0;
+    background-color: white;
+    border-radius: 5px;
+    width: 30vw;
+    height: 50vh;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+.sign-up-form > input {
+    padding: 0.1rem 7rem;
+    border-radius: 5px;
+    margin: 0.5rem 0rem;
+    text-align: center;
+}
+.create-acc-button {
+    background-color: rgb(65, 137, 219);
+    color: white;
+    font-weight: 900;
+    padding: 0.1rem 8.5rem;
+    border-radius: 5px;
+    text-align: center;
+    
+    font-size: 1rem;
+}
+.create-acc-google {
+    background-color: white;
+    
+    font-weight: 900;
+    
+    border-radius: 5px;
+    text-align: center;
+    margin: 1rem;
+}
+.create-acc-google > a {
+    text-decoration: none;
+    color: rgba(73, 73, 73, 0.658);
+    
+}
+.google-link {
+    max-width: 5%;
+    max-height: 5%;
+}
+
+section .social-media {
+    background-color: rgb(223, 223, 223);
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    place-items: center;
+}
+.social-media-title {
+    color: grey;
+    
+}
+.media-icons {
+  
+    display: inline-flex;
+    list-style: none;
+    
+}
+.media-icon {
+    text-decoration: none;
+    align-items: center;
+    justify-items: center;
+}
+.docker, .gitlab, .slack, .hashicorp, .wework, .splunk {
+    padding-left: 5rem;
+    display: inline-flex;
+    
+    max-width: 10vw;
+}
+
+.customer-stories {
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+}
+
+.business-model {
+    background-color: white;
+    padding: 2rem 2rem 2rem 0rem;
+    text-align: center;
+}
+.deploy-text {
+    color: black;
+}
+.secondary colour {
+    color: rgb(240, 239, 239);
+    margin: 1rem 0rem;
+    
+}
+.model-container {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+}
+
+.left-menu ul {
+    list-style: none;
+    border-left: 5px darkgrey solid;   
+}
+.left-menu ul li {
+    padding: 5px 0;
+}
+.left-menu ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(134, 130, 130);
+}
+.right-menu {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.cluster, .compute, .apps, .worldwide {
+    max-width: 15%;
+    
+}
+.right-containerA, .right-containerB {
+    display: inline-block;
+    
+}
+.developer-driven {
+    background-color: rgb(204, 213, 216);
+    text-align: center;
+    
+}
+.developer-title {
+    text-align: center;
+    color: black;
+}
+.create-droplets {
+    max-width: 40vw;
+    
+    align-content: center;
+}
+.centered-text-lower, centered-text-upper {
+    text-align: center;
+}
+.features {
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 4rem 0 2.5rem 0;
+}
+.features-title {
+    font-weight: 800;
+    font-size: 3rem;
+    
+}
+.features-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.anchor-tag {
+    text-align: start;
+    text-decoration: none;
+}
+#worldwide {
+    background-color: blue;
+    text-align: center;
+    padding: 4rem 0 2.5rem 0;
+}
+.worldwide-title {
+    color: white;
+    font-size: 2rem;
+}
+
+.table-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    place-items: center;
+    
+}
+.table-layout {
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+       
+    border-bottom: beige solid 1px;
+}
+.table-layout > h4 {
+    color: white;
+    align-items: initial;
+}
+.table-layout > p {
+    color: beige;
+}
+.table-layout > a {
+    color: turquoise;
+    text-decoration: none;
+}
+.table-layout1 {
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+}
+.table-layout1 > h4 {
+    color: white;
+}
+.table-layout1 > p {
+    color: beige;
+}
+.table-layout1 > a {
+    color: turquoise;
+    text-decoration: none;
+}
+.developers {
+    background-color: white;
+    text-align: center;
+}
+.developers > h2 {
+    color: black;
+}
+.get-started {
+    background-color: blue;
+    text-align: center;
+    padding: 4rem 0 2.5rem 0;
+}
+.get-started > h2 {
+    color: white;
+}
+.button {
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-weight: 600;
+}
